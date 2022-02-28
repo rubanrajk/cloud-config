@@ -6,8 +6,6 @@ spring:
     username: HR
       
   jpa:
-      hibernate:
-         format_sql: true
-      hibernate:
-        ddl-auto: update
-      show-sql: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
